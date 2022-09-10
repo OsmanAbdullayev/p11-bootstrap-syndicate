@@ -1,0 +1,21 @@
+@import 'reset';
+@import 'header';
+@import 'sectionHero';
+@import 'sectionServices';
+@import 'sectionCustomers';
+@import 'sectionDetails';
+@import 'sectionMacbook';
+@import 'sectionMainContent';
+@import 'sectionBlurredSlider';
+@import 'sectionTeam';
+@import 'sectionReviews';
+@import 'sectionBlog';
+@import 'sectionContactUs';
+@import 'sectionLast';
+@import 'footer';
+
+
+div.content-divider {
+            margin: 50px 0 90px 0;
+            border-bottom: 1px dashed #dfe1e3;
+        }

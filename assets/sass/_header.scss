@@ -1,0 +1,31 @@
+header {
+    .navbar {
+        height: 80px !important;
+        // background-color: red !important;
+            background-color: white !important;
+
+        div.container {
+            background-color: white !important;
+            padding-left: 2em;
+            padding-right: 2em;
+            // height: 100%;
+            a {
+                .navbarLogoImage {
+                    width: 150px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .collapse {
+                ul {
+                    font-size: 0.75em;
+                    color: grey;
+                    li {
+                        padding: 0.65em;
+                    }
+                }
+            }
+        }
+    }
+}

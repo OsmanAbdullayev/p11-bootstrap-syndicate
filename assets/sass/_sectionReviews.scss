@@ -1,0 +1,43 @@
+section.reviews {
+    div.container {
+        div.row {
+            .col-12 {
+                text-align: center;
+                padding-bottom: 40px;
+                h1 {
+                    font-size: 3.5em;
+                    padding: 1em;
+                }
+                p {
+                    font-size: 1em;
+                }
+            }
+            .col-md-6 {
+                padding-bottom: 20px;
+                .leftLine {
+                    border-left: 7px solid grey;
+                }
+
+                h4 {
+                    font-size: 1em;
+                    padding: 0 1em;
+                }
+                p {
+                    font-size: 0.8em;
+                    padding: 1em;
+                    color: grey;
+                }
+
+
+
+                &:hover {
+                    .leftLine {
+                    border-left: 7px solid turquoise;
+                    transition: 200ms ease-in-out;
+
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+section.services {
+    div.container {
+        div.header {
+            margin: 2em;
+            // background-color: red !important;
+            h1 {
+                text-align: center;
+                font-size: 3em;
+                color: grey;
+            }
+        }
+        div.rowContainer {
+            margin: 2em;
+            div.row {
+                div.col-lg-3 {
+                    height: 200px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    text-align: center;
+                    i {
+                        // width: 300px;
+                        font-size: 4em;
+                        color: grey;
+                        transition: 0.5s;
+                        &:hover {
+                            transform: scale(1.4);
+                            color: red;
+                            transform: scale(0);
+                        }
+                    }
+                    h3 {
+                        font-size: 1.8em;
+                    }
+                    h5 {
+                        font-size: 0.8em;
+                        color: grey;
+                    }
+                    p {
+                        font-size: 0.7em;
+                    }
+                }
+            }
+        }
+        
+    }
+}

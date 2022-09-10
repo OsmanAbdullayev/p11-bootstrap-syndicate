@@ -1,0 +1,25 @@
+section.container-fluid.sliderBlurred {
+    background-image: url(../img/blurredBackground.jpg);
+    #carouselBlurred {
+        .carousel-item {
+                padding: 2em;
+                text-align: center;
+                h1 {
+                    color: white;
+                    font-size: 3em;
+                    font-weight: 600;
+                    padding: 1em 0em;
+                }
+                p {
+                    font-size: 0.9em;
+                    color: white;
+                    text-shadow: 10px;
+                }
+
+                button {
+                    margin-top: 2em;
+                }
+                }
+            }
+
+        }

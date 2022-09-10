@@ -1,0 +1,80 @@
+section.hero {
+    .container-fluid {
+        padding: 0px;
+        // margin: 0px ;
+        // width: 100% !important;
+        #carouselHero {
+            // background-color: red;
+            .carousel-inner {
+                .carousel-itemOne {
+                    background-image: url(../img/slide_1.jpg);
+                    height: 500px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+                    h2 {
+                        font-size: 3em;
+                        color: white;
+                        font-weight: 100;
+                        text-align: center;
+                        i {
+                            color: white;
+                        }
+                        
+                    }
+                }
+                .carousel-itemTwo {
+                    background-image: url(../img/slide_2.jpg);
+                    height: 500px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+                    h2 {
+                        font-size: 3em;
+                        color: white;
+                        font-weight: 100;
+                        text-align: center;
+                        i {
+                            color: white;
+                        }
+                        
+                    }
+                }
+                .carousel-itemThree {
+                    background-image: url(../img/slide_3.jpg);
+                    height: 500px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+                    h2 {
+                        font-size: 3em;
+                        color: white;
+                        font-weight: 100;
+                        text-align: center;
+                        i {
+                            color: white;
+                        }
+                        
+                    }
+                }
+            }
+            button {
+                span.carousel-control-prev-icon {
+                    background-color: red;
+                    width: 70px;
+                    height: 70px;
+                    background-size: 30%;
+                }
+                span.carousel-control-next-icon {
+                    background-color: red;
+                    width: 70px;
+                    height: 70px;
+                    background-size: 30%;
+                }
+            }
+        }
+    }
+}

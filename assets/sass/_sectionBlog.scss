@@ -1,0 +1,172 @@
+section.blog {
+    div.container {
+        div.row.blog {
+            div.col-12 {
+                margin-bottom: 2em;
+                text-align: center;
+                h1 {
+                    font-size: 2.5em;
+                    font-weight: 600;
+                    padding: 1em 0em;
+                }
+                p {
+                    font-size: 0.9em;
+                }
+            }
+            div.col-lg-4 {
+                margin-top: 20px;
+                a {
+                    .image-wrapper {
+                        position: relative;
+                        overflow: hidden;
+                        img {
+                            display: block;
+                            width: 100%;
+                            // aspect-ratio: 1 / 1;
+                            object-fit: cover;
+                            object-position: center;
+                            transition: 200ms ease-in-out;
+
+                        }
+
+                        div.button .rowa {
+                            position: absolute;
+                            padding: 0;
+                            margin: 0;
+                            top: 10px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            height: 80px;
+                            width: 240px;
+                            text-align: center;
+                            transition: 200ms ease-in-out;
+
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            div.col-4.left{
+                        transition: 200ms ease-in-out;
+
+                                position: absolute;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                background-color: white;
+                                height: 80px;
+                                width: 80px;
+                                text-align: center;
+                                padding: 0;
+                                margin: 0;
+                                display: flex;
+                                justify-content: space-around;
+                                flex-direction: column;
+                                align-items: center;
+                                // transform: translatex(80px);
+                                z-index: -1;
+                                i {
+                                    font-size: 2em;
+                                }
+                                p {
+                                    font-size: 0.6em;
+                                }
+
+                            }
+
+                            div.col-4.center{
+                                position: absolute;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                background-color: white;
+                                height: 80px;
+                                width: 80px;
+                                text-align: center;
+                                padding: 0;
+                                margin: 0;
+                                display: flex;
+                                justify-content: space-around;
+                                flex-direction: column;
+                                align-items: center;
+                                i {
+                                    font-size: 2em;
+                                }
+                                p {
+                                    font-size: 0.6em;
+                                }
+                            }
+
+                            div.col-4.right{
+                        transition: 200ms ease-in-out;
+
+                                position: absolute;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                background-color: white;
+                                height: 80px;
+                                width: 80px;
+                                text-align: center;
+                                padding: 0;
+                                margin: 0;
+                                display: flex;
+                                justify-content: space-around;
+                                flex-direction: column;
+                                align-items: center;
+                                z-index: -1;
+                                i {
+                                    font-size: 2em;
+                                }
+                                p {
+                                    font-size: 0.6em;
+                                }
+
+                            }
+                            
+                            
+                    
+
+                        
+                        }
+
+
+                    }
+
+                    div.row {
+                        .col-12 {
+                            background-color: rgba(128, 128, 128, 0.162);
+                            text-align: center;
+                            h3 {
+                                font-size: 1.2em;
+                                padding-top: 1em;
+                            }
+                            h4 {
+                                font-size: 0.8em;
+                                padding: 1em;
+                                color: turquoise;
+                            }
+                            p {
+                                font-size: 0.6em;
+                                padding: 1em;
+                            }
+                        }
+                    }
+
+                    
+
+
+                }
+
+                a:hover {
+                    div.button .rowa > .col-4.left {
+                        transform: translateX(-120px) !important;
+                        
+                    }
+
+                    div.button .rowa > .col-4.right {
+                        transform: translateX(40px) !important;
+                    }
+
+                    
+                }
+            }
+        }
+    }
+}

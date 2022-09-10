@@ -1,0 +1,990 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: Montserrat, sans-serif;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body button:hover {
+  cursor: pointer;
+}
+
+header .navbar {
+  height: 80px !important;
+  background-color: white !important;
+}
+header .navbar div.container {
+  background-color: white !important;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+header .navbar div.container a .navbarLogoImage {
+  width: 150px;
+}
+header .navbar div.container a .navbarLogoImage img {
+  width: 100%;
+}
+header .navbar div.container .collapse ul {
+  font-size: 0.75em;
+  color: grey;
+}
+header .navbar div.container .collapse ul li {
+  padding: 0.65em;
+}
+
+section.hero .container-fluid {
+  padding: 0px;
+}
+section.hero .container-fluid #carouselHero .carousel-inner .carousel-itemOne {
+  background-image: url(../img/slide_1.jpg);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+section.hero .container-fluid #carouselHero .carousel-inner .carousel-itemOne h2 {
+  font-size: 3em;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+}
+section.hero .container-fluid #carouselHero .carousel-inner .carousel-itemOne h2 i {
+  color: white;
+}
+section.hero .container-fluid #carouselHero .carousel-inner .carousel-itemTwo {
+  background-image: url(../img/slide_2.jpg);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+section.hero .container-fluid #carouselHero .carousel-inner .carousel-itemTwo h2 {
+  font-size: 3em;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+}
+section.hero .container-fluid #carouselHero .carousel-inner .carousel-itemTwo h2 i {
+  color: white;
+}
+section.hero .container-fluid #carouselHero .carousel-inner .carousel-itemThree {
+  background-image: url(../img/slide_3.jpg);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+section.hero .container-fluid #carouselHero .carousel-inner .carousel-itemThree h2 {
+  font-size: 3em;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+}
+section.hero .container-fluid #carouselHero .carousel-inner .carousel-itemThree h2 i {
+  color: white;
+}
+section.hero .container-fluid #carouselHero button span.carousel-control-prev-icon {
+  background-color: red;
+  width: 70px;
+  height: 70px;
+  background-size: 30%;
+}
+section.hero .container-fluid #carouselHero button span.carousel-control-next-icon {
+  background-color: red;
+  width: 70px;
+  height: 70px;
+  background-size: 30%;
+}
+
+section.services div.container div.header {
+  margin: 2em;
+}
+section.services div.container div.header h1 {
+  text-align: center;
+  font-size: 3em;
+  color: grey;
+}
+section.services div.container div.rowContainer {
+  margin: 2em;
+}
+section.services div.container div.rowContainer div.row div.col-lg-3 {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+section.services div.container div.rowContainer div.row div.col-lg-3 i {
+  font-size: 4em;
+  color: grey;
+  transition: 0.5s;
+}
+section.services div.container div.rowContainer div.row div.col-lg-3 i:hover {
+  transform: scale(1.4);
+  color: red;
+  transform: scale(0);
+}
+section.services div.container div.rowContainer div.row div.col-lg-3 h3 {
+  font-size: 1.8em;
+}
+section.services div.container div.rowContainer div.row div.col-lg-3 h5 {
+  font-size: 0.8em;
+  color: grey;
+}
+section.services div.container div.rowContainer div.row div.col-lg-3 p {
+  font-size: 0.7em;
+}
+
+section.customers {
+  background-color: black;
+}
+section.customers div.rainbowTop {
+  height: 7px;
+  background-image: -webkit-linear-gradient(left, #E75239 0%, #E75239 12.5%, #FF961C 12.5%, #FF961C 25%, #FFCC27 25%, #FFCC27 37.5%, #FCE62F 37.5%, #FCE62F 50%, #CDE35B 50%, #CDE35B 62.5%, #82CC33 62.5%, #82CC33 75%, #41BECE 75%, #41BECE 87.5%, #049CDB 87.5%, #049CDB 100%);
+}
+section.customers div.container {
+  padding: 40px;
+  margin-top: 30px;
+}
+section.customers div.container div.row div.imageContainer img {
+  width: 100%;
+}
+section.customers div.rainbowBottom {
+  height: 7px;
+  background-image: -webkit-linear-gradient(left, #E75239 0%, #E75239 12.5%, #FF961C 12.5%, #FF961C 25%, #FFCC27 25%, #FFCC27 37.5%, #FCE62F 37.5%, #FCE62F 50%, #CDE35B 50%, #CDE35B 62.5%, #82CC33 62.5%, #82CC33 75%, #41BECE 75%, #41BECE 87.5%, #049CDB 87.5%, #049CDB 100%);
+}
+
+section.details {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+section.details div.container div.row div.col-12 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+section.details div.container div.row div.col-12 h1 {
+  font-size: 3em;
+  color: grey;
+}
+section.details div.container div.row div.col-lg-4 {
+  margin: 0;
+}
+section.details div.container div.row div.col-lg-4 div.col-2 {
+  padding-top: 2em;
+}
+section.details div.container div.row div.col-lg-4 div.col-2 div.icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+section.details div.container div.row div.col-lg-4 div.col-2 div.icon i {
+  font-size: 1.3em;
+  color: white;
+}
+section.details div.container div.row div.col-lg-4 div.col-2 .redIcon {
+  background-color: red;
+}
+section.details div.container div.row div.col-lg-4 div.col-2 .yellowIcon {
+  background-color: yellow;
+}
+section.details div.container div.row div.col-lg-4 div.col-2 .greenIcon {
+  background-color: green;
+}
+section.details div.container div.row div.col-lg-4 div.col-10 {
+  padding-top: 2em;
+}
+section.details div.container div.row div.col-lg-4 div.col-10 h3 {
+  padding: 0.3em;
+  font-size: 1.5em;
+}
+section.details div.container div.row div.col-lg-4 div.col-10 p {
+  font-size: 0.7em;
+  color: grey;
+}
+
+section.macbook .container-fluid {
+  padding: 0px;
+}
+section.macbook .container-fluid #carouselMacbook .carousel-inner .carousel-item {
+  height: 435px;
+  position: relative;
+}
+section.macbook .container-fluid #carouselMacbook .carousel-inner .carousel-item img {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: -5px;
+  width: 600px;
+}
+section.macbook .container-fluid #carouselMacbook .carousel-inner .carousel-item .carousel-itemOne {
+  background-image: url(../img/sliderBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+section.macbook .container-fluid #carouselMacbook .carousel-inner .carousel-item .carousel-itemOne h1 {
+  margin-top: 0.5em;
+  color: white;
+  font-size: 6em;
+}
+section.macbook .container-fluid #carouselMacbook .carousel-inner .carousel-item {
+  height: 435px;
+  position: relative;
+}
+section.macbook .container-fluid #carouselMacbook .carousel-inner .carousel-item img {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: -5px;
+  width: 600px;
+}
+section.macbook .container-fluid #carouselMacbook .carousel-inner .carousel-item .carousel-itemTwo {
+  background-image: url(../img/sliderBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+section.macbook .container-fluid #carouselMacbook .carousel-inner .carousel-item .carousel-itemTwo h1 {
+  margin-top: 0.5em;
+  color: white;
+  font-size: 6em;
+}
+section.macbook .container-fluid #carouselMacbook .carousel-inner .carousel-item {
+  height: 435px;
+  position: relative;
+}
+section.macbook .container-fluid #carouselMacbook .carousel-inner .carousel-item img {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: -5px;
+  width: 600px;
+}
+section.macbook .container-fluid #carouselMacbook .carousel-inner .carousel-item .carousel-itemThree {
+  background-image: url(../img/sliderBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+section.macbook .container-fluid #carouselMacbook .carousel-inner .carousel-item .carousel-itemThree h1 {
+  margin-top: 0.5em;
+  color: white;
+  font-size: 6em;
+}
+section.macbook .container-fluid #carouselMacbook button span.carousel-control-prev-icon {
+  background-color: red;
+  width: 70px;
+  height: 70px;
+  background-size: 30%;
+}
+section.macbook .container-fluid #carouselMacbook button span.carousel-control-next-icon {
+  background-color: red;
+  width: 70px;
+  height: 70px;
+  background-size: 30%;
+}
+
+@media (max-width: 700px) {
+  section.macbook .container-fluid .carousel .carousel-inner .carousel-item img {
+    width: 400px !important;
+  }
+  section.macbook .container-fluid .carousel .carousel-inner .carousel-item .responsiveH h1 {
+    font-size: 4em !important;
+  }
+}
+section.mainContent div.container div.row.one .col-md-6 h1 {
+  font-size: 4em;
+  padding: 0.5em 0em;
+}
+section.mainContent div.container div.row.one .col-md-6 h3 {
+  font-size: 1em;
+  padding: 0.5em 0em;
+}
+section.mainContent div.container div.row.one .col-md-6 h5 {
+  font-size: 0.8em;
+  padding: 0.5em 0em;
+}
+section.mainContent div.container div.row.one .col-md-6.icon div.row .col-2 {
+  padding: 2em 0em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.mainContent div.container div.row.one .col-md-6.icon div.row .col-2 i {
+  font-size: 3em;
+  color: turquoise;
+}
+section.mainContent div.container div.row.one .col-md-6.icon div.row .col-10 {
+  padding: 2em 0em;
+}
+section.mainContent div.container div.row.one .col-md-6.icon div.row .col-10 a {
+  float: right;
+}
+section.mainContent div.container div.row.one .col-md-6.icon div.row .col-10 a button {
+  background-color: rgba(128, 128, 128, 0.477);
+  color: white;
+  padding: 0.3em 0.6em;
+  font-size: 0.8em;
+}
+section.mainContent div.container div.row.one .col-md-6.icon div.row .col-10 h2 {
+  font-size: 1.2em;
+  padding: 0.5em 0em;
+}
+section.mainContent div.container div.row.one .col-md-6.icon div.row .col-10 h4 {
+  font-size: 0.7;
+  color: grey;
+  padding: 0.5em 0em;
+}
+section.mainContent div.container div.row.one .col-md-6.icon div.row .col-10 h6 {
+  font-size: 0.6em;
+  padding: 0.5em 0em;
+}
+section.mainContent div.container div.row.video .col-md-6.video .videoWrapper {
+  padding-top: 30px;
+  height: 100%;
+  width: 100%;
+}
+section.mainContent div.container div.row.video .col-md-6.video .videoWrapper iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+section.mainContent div.container div.row.video .col-md-6 h1 {
+  font-size: 3.5em;
+  padding: 0.5em 0em;
+}
+section.mainContent div.container div.row.video .col-md-6 h3 {
+  font-size: 1em;
+  padding: 0.7em 0em;
+  line-height: 20px;
+}
+section.mainContent div.container div.row.video .col-md-6 h5 {
+  font-size: 0.8em;
+  padding: 1em 0em;
+  line-height: 20px;
+}
+section.mainContent div.container div.row.customize div.col-md-6.left h1 {
+  font-size: 3.5em;
+  padding: 0.5em 0em;
+}
+section.mainContent div.container div.row.customize div.col-md-6.left h3 {
+  font-size: 1em;
+  padding: 0.7em 0em;
+  line-height: 20px;
+}
+section.mainContent div.container div.row.customize div.col-md-6.left h5 {
+  font-size: 0.8em;
+  padding: 1em 0em;
+  line-height: 20px;
+}
+section.mainContent div.container div.row.customize div.col-md-6.right div.row div.col-6 i {
+  color: turquoise;
+  font-size: 3em;
+}
+section.mainContent div.container div.row.customize div.col-md-6.right div.row div.col-6 h2 {
+  font-size: 1.4em;
+  padding: 1em 0em;
+}
+section.mainContent div.container div.row.customize div.col-md-6.right div.row div.col-6 h4 {
+  font-size: 0.9;
+  color: grey;
+  padding: 1em 0em;
+}
+section.mainContent div.container div.row.customize div.col-md-6.right div.row div.col-6 h6 {
+  font-size: 0.7em;
+  padding: 1em 0em;
+}
+section.mainContent div.container div.row.slideOnTouch .col-md-6 h1 {
+  font-size: 3.5em;
+  padding: 0.5em 0em;
+}
+section.mainContent div.container div.row.slideOnTouch .col-md-6 h3 {
+  font-size: 1em;
+  padding: 0.7em 0em;
+  line-height: 20px;
+}
+section.mainContent div.container div.row.slideOnTouch .col-md-6 h5 {
+  font-size: 0.8em;
+  padding: 1em 0em;
+  line-height: 20px;
+}
+section.mainContent div.container div.row.pricing div.col-12 {
+  text-align: center;
+}
+section.mainContent div.container div.row.pricing div.col-12 h1 {
+  font-size: 3.5em;
+  padding: 0.5em 0em;
+}
+section.mainContent div.container div.row.pricing div.col-12 p {
+  font-size: 0.7em;
+}
+section.mainContent div.container div.row.pricing div.col-md-4 {
+  text-align: center;
+}
+section.mainContent div.container div.row.pricing div.col-md-4 div.border.red.top {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
+  height: 0.6em;
+  border: none !important;
+  border-bottom: 2px solid red !important;
+  text-align: center;
+}
+section.mainContent div.container div.row.pricing div.col-md-4 div.border.red.top span {
+  font-size: 1.2em;
+  padding: 0 10px;
+  background-color: white;
+}
+section.mainContent div.container div.row.pricing div.col-md-4 h1 {
+  font-size: 2em;
+  font-weight: 600;
+  padding: 0.5em 0em;
+}
+section.mainContent div.container div.row.pricing div.col-md-4 h1 sup {
+  font-size: 0.7em;
+}
+section.mainContent div.container div.row.pricing div.col-md-4 p {
+  font-size: 0.7em;
+  padding: 1em;
+}
+section.mainContent div.container div.row.pricing div.col-md-4 i {
+  font-size: 1.5em;
+  padding: 1em;
+}
+section.mainContent div.container div.row.pricing div.col-md-4 h4 {
+  font-size: 0.9;
+  color: grey;
+  padding: 1em 0em;
+}
+section.mainContent div.container div.row.pricing div.col-md-4 div.border.red.bottom {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
+  height: 0.6em;
+  border: none !important;
+  border-bottom: 1px solid red !important;
+  text-align: center;
+}
+section.mainContent div.container div.row.pricing div.col-md-4 div.border.red.bottom span {
+  font-size: 1.2em;
+  padding: 0 10px;
+  background-color: white;
+}
+section.mainContent div.container div.row.pricing div.col-md-4 a {
+  margin: 1em;
+}
+section.mainContent div.container div.row.pricing div.border.yellow.top {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
+  height: 0.6em;
+  border: none !important;
+  border-bottom: 2px solid yellow !important;
+  text-align: center;
+}
+section.mainContent div.container div.row.pricing div.border.yellow.top span {
+  font-size: 1.2em;
+  padding: 0 10px;
+  background-color: white;
+}
+section.mainContent div.container div.row.pricing div.border.yellow.bottom {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
+  height: 0.6em;
+  border: none !important;
+  border-bottom: 1px solid yellow !important;
+  text-align: center;
+}
+section.mainContent div.container div.row.pricing div.border.yellow.bottom span {
+  font-size: 1.2em;
+  padding: 0 10px;
+  background-color: white;
+}
+section.mainContent div.container div.row.pricing div.border.green.top {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
+  height: 0.6em;
+  border: none !important;
+  border-bottom: 2px solid green !important;
+  text-align: center;
+}
+section.mainContent div.container div.row.pricing div.border.green.top span {
+  font-size: 1.2em;
+  padding: 0 10px;
+  background-color: white;
+}
+section.mainContent div.container div.row.pricing div.border.green.bottom {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
+  height: 0.6em;
+  border: none !important;
+  border-bottom: 1px solid green !important;
+  text-align: center;
+}
+section.mainContent div.container div.row.pricing div.border.green.bottom span {
+  font-size: 1.2em;
+  padding: 0 10px;
+  background-color: white;
+}
+section.mainContent div.container div.row.signUp {
+  text-align: center;
+}
+section.mainContent div.container div.row.signUp h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  padding: 1em 0em;
+}
+section.mainContent div.container div.row.signUp p {
+  font-size: 0.9em;
+}
+section.mainContent div.container div.row.signUp button {
+  margin-top: 1.5em;
+  padding: 1em 2em;
+}
+section.mainContent div.container div.row.portfolio div.col-12 {
+  margin-bottom: 2em;
+  text-align: center;
+}
+section.mainContent div.container div.row.portfolio div.col-12 h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  padding: 1em 0em;
+}
+section.mainContent div.container div.row.portfolio div.col-12 p {
+  font-size: 0.9em;
+}
+section.mainContent div.container div.row.portfolio div.col-lg-4 {
+  margin-top: 20px;
+}
+section.mainContent div.container div.row.portfolio div.col-lg-4 a .image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+section.mainContent div.container div.row.portfolio div.col-lg-4 a .image-wrapper img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  transition: 200ms ease-in-out;
+}
+section.mainContent div.container div.row.portfolio div.col-lg-4 a .image-wrapper div.button .row {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  bottom: 0px;
+  right: 0px;
+  height: 30%;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  transform: translateY(100%);
+  transition: 200ms ease-in-out;
+}
+section.mainContent div.container div.row.portfolio div.col-lg-4 a .image-wrapper div.button .row h2 {
+  color: white;
+  font-size: 1.5em;
+  padding-top: 0.7em;
+}
+section.mainContent div.container div.row.portfolio div.col-lg-4 a .image-wrapper div.button .row h3 {
+  color: turquoise;
+  font-size: 1em;
+}
+section.mainContent div.container div.row.portfolio div.col-lg-4 a:hover div.button .row {
+  transform: translateY(0);
+}
+section.mainContent div.container div.row.portfolio div.col-lg-4 a:hover img {
+  transform: translateY(-30%);
+}
+section.mainContent div.container div.content-divider {
+  margin: 30px 0 90px 0;
+  border-bottom: 1px dashed #dfe1e3;
+}
+
+section.container-fluid.sliderBlurred {
+  background-image: url(../img/blurredBackground.jpg);
+}
+section.container-fluid.sliderBlurred #carouselBlurred .carousel-item {
+  padding: 2em;
+  text-align: center;
+}
+section.container-fluid.sliderBlurred #carouselBlurred .carousel-item h1 {
+  color: white;
+  font-size: 3em;
+  font-weight: 600;
+  padding: 1em 0em;
+}
+section.container-fluid.sliderBlurred #carouselBlurred .carousel-item p {
+  font-size: 0.9em;
+  color: white;
+  text-shadow: 10px;
+}
+section.container-fluid.sliderBlurred #carouselBlurred .carousel-item button {
+  margin-top: 2em;
+}
+
+section.team div.container div.row .col-12 {
+  text-align: center;
+}
+section.team div.container div.row .col-12 h1 {
+  font-size: 2.5em;
+  padding: 1em;
+}
+section.team div.container div.row .col-12 p {
+  font-size: 1em;
+  margin-bottom: 3em;
+}
+section.team div.container div.row .col-lg-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+section.team div.container div.row .col-lg-3 .imageWrapper {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px dotted red;
+  overflow: hidden;
+}
+section.team div.container div.row .col-lg-3 .imageWrapper img {
+  padding: 0.5em;
+  width: 100%;
+}
+section.team div.container div.row .col-lg-3 h4 {
+  font-size: 1.5em;
+  padding: 1em;
+}
+section.team div.container div.row .col-lg-3 h5 {
+  font-size: 1em;
+  color: grey;
+}
+
+div.content-divider {
+  margin: 50px 0 90px 0;
+  border-bottom: 1px dashed #dfe1e3;
+}
+
+section.reviews div.container div.row .col-12 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+section.reviews div.container div.row .col-12 h1 {
+  font-size: 3.5em;
+  padding: 1em;
+}
+section.reviews div.container div.row .col-12 p {
+  font-size: 1em;
+}
+section.reviews div.container div.row .col-md-6 {
+  padding-bottom: 20px;
+}
+section.reviews div.container div.row .col-md-6 .leftLine {
+  border-left: 7px solid grey;
+}
+section.reviews div.container div.row .col-md-6 h4 {
+  font-size: 1em;
+  padding: 0 1em;
+}
+section.reviews div.container div.row .col-md-6 p {
+  font-size: 0.8em;
+  padding: 1em;
+  color: grey;
+}
+section.reviews div.container div.row .col-md-6:hover .leftLine {
+  border-left: 7px solid turquoise;
+  transition: 200ms ease-in-out;
+}
+
+section.blog div.container div.row.blog div.col-12 {
+  margin-bottom: 2em;
+  text-align: center;
+}
+section.blog div.container div.row.blog div.col-12 h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  padding: 1em 0em;
+}
+section.blog div.container div.row.blog div.col-12 p {
+  font-size: 0.9em;
+}
+section.blog div.container div.row.blog div.col-lg-4 {
+  margin-top: 20px;
+}
+section.blog div.container div.row.blog div.col-lg-4 a .image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+section.blog div.container div.row.blog div.col-lg-4 a .image-wrapper img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  transition: 200ms ease-in-out;
+}
+section.blog div.container div.row.blog div.col-lg-4 a .image-wrapper div.button .rowa {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 80px;
+  width: 240px;
+  text-align: center;
+  transition: 200ms ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.blog div.container div.row.blog div.col-lg-4 a .image-wrapper div.button .rowa div.col-4.left {
+  transition: 200ms ease-in-out;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  z-index: -1;
+}
+section.blog div.container div.row.blog div.col-lg-4 a .image-wrapper div.button .rowa div.col-4.left i {
+  font-size: 2em;
+}
+section.blog div.container div.row.blog div.col-lg-4 a .image-wrapper div.button .rowa div.col-4.left p {
+  font-size: 0.6em;
+}
+section.blog div.container div.row.blog div.col-lg-4 a .image-wrapper div.button .rowa div.col-4.center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+section.blog div.container div.row.blog div.col-lg-4 a .image-wrapper div.button .rowa div.col-4.center i {
+  font-size: 2em;
+}
+section.blog div.container div.row.blog div.col-lg-4 a .image-wrapper div.button .rowa div.col-4.center p {
+  font-size: 0.6em;
+}
+section.blog div.container div.row.blog div.col-lg-4 a .image-wrapper div.button .rowa div.col-4.right {
+  transition: 200ms ease-in-out;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  z-index: -1;
+}
+section.blog div.container div.row.blog div.col-lg-4 a .image-wrapper div.button .rowa div.col-4.right i {
+  font-size: 2em;
+}
+section.blog div.container div.row.blog div.col-lg-4 a .image-wrapper div.button .rowa div.col-4.right p {
+  font-size: 0.6em;
+}
+section.blog div.container div.row.blog div.col-lg-4 a div.row .col-12 {
+  background-color: rgba(128, 128, 128, 0.162);
+  text-align: center;
+}
+section.blog div.container div.row.blog div.col-lg-4 a div.row .col-12 h3 {
+  font-size: 1.2em;
+  padding-top: 1em;
+}
+section.blog div.container div.row.blog div.col-lg-4 a div.row .col-12 h4 {
+  font-size: 0.8em;
+  padding: 1em;
+  color: turquoise;
+}
+section.blog div.container div.row.blog div.col-lg-4 a div.row .col-12 p {
+  font-size: 0.6em;
+  padding: 1em;
+}
+section.blog div.container div.row.blog div.col-lg-4 a:hover div.button .rowa > .col-4.left {
+  transform: translateX(-120px) !important;
+}
+section.blog div.container div.row.blog div.col-lg-4 a:hover div.button .rowa > .col-4.right {
+  transform: translateX(40px) !important;
+}
+
+section.ContactUs div.container div.row div.col-12 {
+  text-align: center;
+}
+section.ContactUs div.container div.row div.col-12 h1 {
+  font-size: 4em;
+  margin-bottom: 0.5em;
+}
+section.ContactUs div.container div.row div.col-12 p {
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+section.ContactUs div.container div.row div.col-lg-3 {
+  text-align: center;
+  height: 100px;
+}
+section.ContactUs div.container div.row div.col-lg-3 label {
+  font-size: 0.8em;
+}
+section.ContactUs div.container div.row div.col-lg-3 button {
+  background-color: turquoise;
+  border: none;
+}
+
+section.last div.container div.row .col-lg-3 h2 {
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+  padding-left: 15px;
+}
+section.last div.container div.row .col-lg-3 div.leftLine {
+  border: none !important;
+  border-left: 5px solid rgba(128, 128, 128, 0.256) !important;
+  transition: 200ms ease-in-out;
+}
+section.last div.container div.row .col-lg-3 div.leftLine:hover {
+  border-left: 5px solid turquoise !important;
+}
+section.last div.container div.row .col-lg-3 div.leftLine h4 {
+  color: grey;
+  font-size: 0.8em;
+  padding: 10px;
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(128, 128, 128, 0.279);
+}
+footer div.container div.row {
+  font-size: 0.8em;
+  padding: 60px;
+}
+footer div.container div.row .col-md-6.left {
+  padding: 1em;
+  text-align: left;
+}
+footer div.container div.row .col-md-6.right {
+  padding: 1em;
+  text-align: right;
+}
+footer div.container div.row .col-md-6.right a.facebook {
+  color: blue;
+}
+footer div.container div.row .col-md-6.right a.twitter {
+  color: rgb(0, 123, 255);
+}
+footer div.container div.row .col-md-6.right a.google {
+  color: rgb(255, 30, 0);
+}
+footer div.container div.row .col-md-6.right a.instagram {
+  color: rgb(191, 0, 255);
+}
+
+div.content-divider {
+  margin: 50px 0 90px 0;
+  border-bottom: 1px dashed #dfe1e3;
+}/*# sourceMappingURL=style.css.map */

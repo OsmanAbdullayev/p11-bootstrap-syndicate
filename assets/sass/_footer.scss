@@ -1,0 +1,31 @@
+footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(128, 128, 128, 0.279);
+    div.container {
+        div.row {
+            font-size: 0.8em;
+            padding: 60px;
+            .col-md-6.left{
+                padding: 1em;
+                text-align: left;
+            }
+            .col-md-6.right {
+                padding: 1em;
+                text-align: right;
+                a.facebook {
+                    color: blue;
+                }
+                a.twitter {
+                    color: rgb(0, 123, 255);
+                }
+                a.google {
+                    color: rgb(255, 30, 0);
+                }
+                a.instagram {
+                    color: rgb(191, 0, 255);
+                }
+            }
+        }
+    }
+}

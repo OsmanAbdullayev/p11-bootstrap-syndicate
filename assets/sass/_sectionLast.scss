@@ -1,0 +1,29 @@
+section.last {
+    div.container {
+        div.row {
+            .col-lg-3 {
+                h2 {
+                    font-size: 1.6em;
+                    margin-bottom: 0.5em;
+                    padding-left: 15px;
+                }
+                div.leftLine {
+                    border: none !important;
+                    border-left: 5px solid rgba(128, 128, 128, 0.256) !important;
+                    transition: 200ms ease-in-out;
+                    &:hover {
+                        border-left: 5px solid turquoise !important;
+
+                    }
+
+                    h4 {
+                        color: grey;
+                        font-size: 0.8em;
+                        padding: 10px;
+
+                    }
+                }
+            }
+        }
+    }
+}
